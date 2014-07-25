@@ -426,6 +426,10 @@ th {
 
 /*! end normalize.css */
 
+body {
+    margin-left: 2em;
+}
+
 .button {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -456,3 +460,5 @@ th {
     border: 1px solid #68A2EE;
     font-size: 14px;
     font-weight: 500; }
+
+

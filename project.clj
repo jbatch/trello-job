@@ -9,8 +9,11 @@
                  [environ "0.5.0"]
                  [ring/ring-core "1.3.0"]
                  [ring/ring-devel "1.3.0"]
-                 [ring/ring-jetty-adapter "1.3.0"]]
-  :plugins [[lein-environ "0.5.0"]]
+                 [ring/ring-jetty-adapter "1.3.0"]
+                 [trellolib "0.2.0-SNAPSHOT"]]
+  :plugins [[lein-environ "0.5.0"]
+            [lein-ring "0.8.11"]]
+  :ring {:handler au.com.directcommunications.trello-job.routes/app}
   :profiles {:dev {:source-paths ["dev"]
                    :dependencies [[midje "1.6.3"]
                                   [org.clojure/tools.namespace "0.2.5"]]}
