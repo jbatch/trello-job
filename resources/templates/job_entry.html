@@ -2,10 +2,15 @@
   <h1>Job entry</h1>
 
   <form action="/job" method="post">
+    <label>Job Number:</label> <input type="text" name="jobno">
     <label>Customer:</label> <input type="text" name="customer-name">
     <label>Purchase Order:</label> <input type="text" name="customer-po">
     <table>
       <tr><th>Del</th><th>Model</th><th>Serial No.</th></tr>
+      <tr><td><img src="" width="15" height="15"></td><td><input type="text" name="model[]"></td><td><input type="text" name="serialno[]"></td></tr>
+       <tr><th>Del</th><th>Model</th><th>Serial No.</th></tr>
+      <tr><td><img src="" width="15" height="15"></td><td><input type="text" name="model[]"></td><td><input type="text" name="serialno[]"></td></tr>
+       <tr><th>Del</th><th>Model</th><th>Serial No.</th></tr>
       <tr><td><img src="" width="15" height="15"></td><td><input type="text" name="model[]"></td><td><input type="text" name="serialno[]"></td></tr>
     </table>
     <label>To be done:</label> <input type="textarea" name="to-do">

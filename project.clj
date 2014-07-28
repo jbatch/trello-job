@@ -10,7 +10,7 @@
                  [ring/ring-core "1.3.0"]
                  [ring/ring-devel "1.3.0"]
                  [ring/ring-jetty-adapter "1.3.0"]
-                 [trellolib "0.2.0-SNAPSHOT"]]
+                 [trellolib "0.2.1-SNAPSHOT"]]
   :plugins [[lein-environ "0.5.0"]
             [lein-ring "0.8.11"]]
   :ring {:handler au.com.directcommunications.trello-job.routes/app}
